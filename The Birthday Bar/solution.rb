@@ -1,3 +1,7 @@
+# @params {<Array> Integer} s
+# @params {Integer} d
+# @params {Integer} m
+# @returns {Integer} output
 def birthday(s, d, m)
     output = 0
     start_point = 0
