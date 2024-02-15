@@ -2,7 +2,7 @@ const ReverseMatrix90deg = (matrix) => {
   const output = [];
   for(let i = 0; i < matrix[0].length; i++) {
     output[i] = [];
-    for(let j = matrix.length-1; j <= 0; j--) {
+    for(let j = matrix.length-1; j >= 0; j--) {
       output[i].push(matrix[j][i]);
     }
   }
