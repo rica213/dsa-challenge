@@ -9,7 +9,7 @@ var equalPairs = function(grid) {
     const newGrid = [];
 
     for(let i = 0; i < grid.length; i++) {
-        newRow.push(grid[i].join(''))
+        newRow.push(grid[i].join(','))
     }
     
     for(let i = 0; i < grid[0].length; i++) {
@@ -20,7 +20,7 @@ var equalPairs = function(grid) {
     }
 
     for(let i = 0; i < newGrid.length; i++) {
-        newColumn.push(newGrid[i].join(''))
+        newColumn.push(newGrid[i].join(','))
     }
 
     for(let row = 0; row < newRow.length; row++) {
